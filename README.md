@@ -11,7 +11,12 @@ _Works great when used with with [Triton](https://docs.joyent.com/public-cloud/a
 - The script assumes you have `docker` and `git` installed and an active internet connection to pull the docker repo to your local system.
 
 ## Usage
+
+To install the man pages, just run the script:  
 `./docker-man-pages-osx.sh`
+
+Then to view any docker related man page, just use man like normal!  
+Perfect for offline usage!
 
 ```
 # examples
