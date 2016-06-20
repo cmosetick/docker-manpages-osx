@@ -36,8 +36,6 @@ For a full listing of all the man pages that get installed run:
 
 - Run the script occasionally to update the pages in the event that the Docker core team updates things on their side.
 
-- At time of writing, there is no man page in the docker repo for `docker-network` which is functionality that was recently added to docker v1.9+.
-
 ### References
 
 Adapted from:
