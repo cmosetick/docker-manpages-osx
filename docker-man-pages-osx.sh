@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 # adapted from: http://stackoverflow.com/a/32239112
 
