@@ -3,7 +3,7 @@ Docker Man Pages for OS X
 
 **Install the man pages for `docker` on your Mac OS X system using docker build and go-md2man.**  
 
-_Works great when used with with [Triton](https://docs.joyent.com/public-cloud/api-access/docker) or [Dlite](https://github.com/nlf/dlite)!!_
+_Works great when used with with [Docker for Mac](https://docs.docker.com/docker-for-mac/), [dlite](https://github.com/nlf/dlite) or [Triton](https://docs.joyent.com/public-cloud/api-access/docker) _
 
 ## Prereqs
 - The script assumes that you are using Mac Homebrew on your OS X system. (http://brew.sh)  
