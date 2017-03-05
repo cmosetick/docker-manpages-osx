@@ -35,6 +35,7 @@ For a full listing of all the man pages that get installed run:
 ```
 ls -l /usr/local/share/man/man1/docker*
 ls -l /usr/local/share/man/man5/docker*
+ls -la /usr/local/share/man/man5/Dockerfile*
 ls -l /usr/local/share/man/man8/docker*
 ```
 
