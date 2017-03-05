@@ -23,6 +23,7 @@ Then to view any docker related man page, just use man like normal!
 ```
 # examples
 man docker
+man Dockerfile
 man docker-run
 man docker-inspect
 man docker-exec
