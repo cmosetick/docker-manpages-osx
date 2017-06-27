@@ -5,7 +5,7 @@
 docker build -t docker-man-pages-osx .
 mkdir -p $HOME/temp
 cd $HOME/temp
-git clone https://github.com/docker/docker.git
+git clone  -b docs-v1.12.1-2016-08-12 --single-branch https://github.com/docker/docker.git
 cd docker/man
 docker run --rm -v $PWD/:/docs:rw -w /docs -i --entrypoint=/docs/md2man-all.sh docker-man-pages-osx:latest
 cp -R man* /usr/local/share/man/   # no sudo for homebrew location
