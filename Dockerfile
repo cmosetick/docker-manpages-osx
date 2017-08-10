@@ -1,5 +1,6 @@
+# docker build . -t docker-man-pages-osx:latest
 FROM savant/md2man
-MAINTAINER Chris Mosetick <cmosetick@gmail.com>
+LABEL maintainer Chris Mosetick <cmosetick@gmail.com>
 RUN \
 apk add --update --no-cache bash && \
 rm -rf /var/cache/apk/* && \
